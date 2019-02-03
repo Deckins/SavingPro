@@ -1,0 +1,41 @@
+.UserInput {
+    width: 50%;
+    margin: 10px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    text-align: center;
+    
+}
+
+.UserInput input,
+.UserInput textarea,
+.UserInput select {
+    display: block;
+    width: 40%;
+    height:20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    outline: none;
+    font: inherit;
+    font-size: 10px;
+    margin: auto;
+}
+.UserInput h1{
+    font-size:20px;
+}
+
+.UserInput button {
+    margin: 5px 0;
+    padding: 10px;
+    font: inherit;
+    border: 1px solid #fa923f;
+    background-color: transparent;
+    color: #fa923f;
+    cursor: pointer;
+}
+
+.UserInput button:hover,
+.UserInput button:active {
+    color: white;
+    background-color: #fa923f;
+}
